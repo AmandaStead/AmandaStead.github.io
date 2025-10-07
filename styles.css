@@ -90,6 +90,30 @@ a { color: inherit; }
   display: block;
 }
 
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.layout {
+  display: flex;
+  gap: 40px;
+}
+
+.main {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+section:nth-child(even) {
+  background: #f7f7f7;
+  padding: 40px 0;
+}
+
 
 main { display:grid; gap:2rem; padding:2rem 0 4rem; }
 h2 { font-size:1.4rem; margin:.25rem 0 1rem; }
