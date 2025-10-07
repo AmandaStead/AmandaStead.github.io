@@ -2,7 +2,7 @@
 * { box-sizing: border-box; }
 body { margin:0; font-family: Inter, system-ui, sans-serif; line-height:1.6; color:#0f172a; background:#f8fafc; }
 a { color: inherit; }
-.container { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
 .hero { padding: 4rem 0 2rem; text-align:center; }
 .hero h1 { font-size: clamp(2rem, 4vw, 3rem); margin:0 0 .5rem; }
 .muted { color:#64748b; }
